@@ -1,0 +1,137 @@
+﻿
+@keyframes example {
+    0% {
+        background-color: red;
+       
+    }
+
+    25% {
+        background-color: yellow;
+        
+    }
+
+    50% {
+        background-color: blue;
+        
+    }
+
+    75% {
+        background-color: green;
+        ;
+    }
+
+    75% {
+        background-color: purple;
+        
+    }
+
+    100% {
+        background-color: red;
+       
+    }
+}
+
+
+#navigation {
+    width: 350px;
+    border: 10px solid;
+    padding: 20px;
+    margin-left: 25%;
+    background-color: aquamarine;
+    animation: pulse 4s infinite;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    bottom: 20px;
+    border-color:aliceblue;
+}
+body {
+    background: url("back.jpg") fixed repeat top left;
+}
+
+#info1 {
+    background-color: aquamarine;
+    animation: pulse -4s infinite;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-right: 170px;
+    border: 1px solid blue;
+    position: relative;
+    bottom: 510px;
+    width: 1000PX;
+    height: 200px;
+}
+#info2 {
+    background-color: aquamarine;
+    animation: pulse 4s infinite;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-right: 170px;
+    border: 1px solid blue;
+    position: relative;
+    width: 1000PX;
+    bottom: 400px;
+    height: 200px;
+}
+#aside {
+ 
+    animation: pulse 4s infinite;
+    animation-name: example;
+    animation-duration: 2s;
+    height: 400px;
+    width: 200px;
+    padding: 50px;
+    margin: 10px;
+    overflow: hidden;
+    align-content: center;
+    border: 100px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 30px;
+    margin-left: 1020px;
+    border: 1px solid blue;
+}
+#contenu {
+    
+    border: 10px solid;
+    padding: 20px;
+    height: 500px;
+}
+#left {
+    margin-left: 260px;
+    padding: 150px;
+    margin-top:150px;
+}
+#entete {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+}
+#pied {
+    width: 150px;
+    background-size: 20px;
+    background-color: yellow;
+    align-content;
+}
+#ligne {
+    resize:10px;
+    color:darkturquoise
+}
+#titre {
+    background-color: red;
+}
+#text{
+    background-color:yellow;
+}
+#textetotale{
+    margin:20px;
+}
+#image{
+    margin:20px
+}
